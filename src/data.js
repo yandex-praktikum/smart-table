@@ -1,14 +1,19 @@
-import {makeIndex} from "./lib/utils.js";
+import { data as source } from './data/dataset_1.js';
 
-export function initData(sourceData) {
-    const sellers = makeIndex(sourceData.sellers, 'id', v => `${v.first_name} ${v.last_name}`);
-    const customers = makeIndex(sourceData.customers, 'id', v => `${v.first_name} ${v.last_name}`);
-    const data = sourceData.purchase_records.map(item => ({
-        id: item.receipt_id,
-        date: item.date,
-        seller: sellers[item.seller_id],
-        customer: customers[item.customer_id],
-        total: item.total_amount
-    }));
-    return {sellers, customers, data};
+// Имя и фамилия одной строкой: { first_name: 'Petr', last_name: 'Smirnov' } → 'Petr Smirnov'
+function fullName(person) {
+  return `${person.first_name} ${person.last_name}`;
 }
+
+// Строки таблицы, по одной на чек:
+// { id: 'receipt_1', date: '2023-12-04', customer: 'Andrey Alekseev', seller: 'Nikolai Ivanov', total: 4657.56 }
+export const rows = source.purchase_records.map((record) => ({
+  id: record.receipt_id,
+  date: record.date,
+  customer: fullName(source.customers.find((customer) => customer.id === record.customer_id)),
+  seller: fullName(source.sellers.find((seller) => seller.id === record.seller_id)),
+  total: record.total_amount,
+}));
+
+// Имена продавцов для списка в фильтре: ['Alexey Petrov', 'Mikhail Nikolaev', …]
+export const sellers = source.sellers.map(fullName);
