@@ -10,6 +10,7 @@ env:
   DIR_TESTS: /tmp/tests-smart-table
   REP_TESTS: https://github.com/Yandex-Practicum/tests-smart-table.git
   REPO: ${{ github.event.repository.name }}
+  STARTER_VERSION: 2
 jobs:
   tests:
     runs-on: ubuntu-24.04
