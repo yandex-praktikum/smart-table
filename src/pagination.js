@@ -14,16 +14,34 @@ export function applyPagination(rows, page, perPage) {
   return rows;
 }
 
-// Выводит кнопки с номерами страниц из шаблона #page вместо прежних и выделяет текущую классом active.
+// Готовая функция. Выводит кнопки с номерами страниц из шаблона #page вместо прежних и выделяет текущую классом active.
 // Принимает: container — элемент для кнопок; pages — массив номеров, например [1, 2, 3, 4, 5];
 // current — номер текущей страницы.
 // Ничего не возвращает.
 export function renderPages(container, pages, current) {
+  const template = document.querySelector('#page').content;
+
+  const buttons = pages.map((number) => {
+    const button = template.cloneNode(true).firstElementChild;
+    button.textContent = number;
+    button.dataset.page = number;
+    button.classList.toggle('active', number === current);
+    return button;
+  });
+
+  container.replaceChildren(...buttons);
 }
 
-// Заполняет строку «Showing 11 to 20 of 230 entries».
+// Готовая функция. Заполняет строку «Showing 11 to 20 of 230 entries».
 // Принимает: status — элементы { fromRow, toRow, totalRows }; page — номер страницы;
 // perPage — строк на странице; total — число строк после поиска и фильтров.
 // Ничего не возвращает.
 export function renderStatus(status, page, perPage, total) {
+  if (total === 0) {
+    status.fromRow.textContent = 0;
+  } else {
+    status.fromRow.textContent = (page - 1) * perPage + 1;
+  }
+  status.toRow.textContent = Math.min(page * perPage, total);
+  status.totalRows.textContent = total;
 }
