@@ -1,23 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8"/>
     <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Data Table App</title>
+    <title>Умная таблица</title>
 </head>
 <body>
 <main id="app" class="container">
-    <form name="table" class="table" style="--columns: 1fr 1fr 1fr 1fr" role="table" aria-label="Data table">
+    <form name="table" class="table" style="--columns: 1fr 1fr 1fr 1fr" role="table" aria-label="Таблица продаж">
 
         <!-- Поиск и сброс -->
         <div class="search-bar">
             <label class="search-wrapper">
                 <i class="icon search-icon" aria-hidden="true"></i>
-                <input type="text" name="search" class="input" placeholder="Search" data-name="search">
+                <input type="text" name="search" class="input" placeholder="Поиск" data-name="search">
             </label>
             <button type="button" name="clear" class="button reset-wrapper" data-name="reset">
-                Reset all filters
+                Сбросить фильтры
                 <i class="icon reset-icon" aria-hidden="true"></i>
             </button>
         </div>
@@ -26,16 +26,16 @@
         <div class="table-row header-row" role="rowgroup">
             <div class="table-column" role="columnheader">
                 <div class="sortable">
-                    Date
-                    <button type="button" name="sort" data-field="date" data-value="none" class="icon" data-name="sortByDate" aria-label="Sort by date"></button>
+                    Дата
+                    <button type="button" name="sort" data-field="date" data-value="none" class="icon" data-name="sortByDate" aria-label="Сортировать по дате"></button>
                 </div>
             </div>
-            <div class="table-column" role="columnheader">Customer</div>
-            <div class="table-column" role="columnheader">Seller</div>
+            <div class="table-column" role="columnheader">Покупатель</div>
+            <div class="table-column" role="columnheader">Продавец</div>
             <div class="table-column" role="columnheader">
                 <div class="sortable">
-                    Total
-                    <button type="button" name="sort" data-field="total" data-value="none" class="icon" data-name="sortByTotal" aria-label="Sort by total"></button>
+                    Сумма
+                    <button type="button" name="sort" data-field="total" data-value="none" class="icon" data-name="sortByTotal" aria-label="Сортировать по сумме"></button>
                 </div>
             </div>
         </div>
@@ -46,15 +46,15 @@
             <div class="table-column"></div>
             <div class="table-column">
                 <label class="dropdown-select">
-                    <select name="seller" data-name="searchBySeller" aria-label="Filter by seller">
+                    <select name="seller" data-name="searchBySeller" aria-label="Фильтр по продавцу">
                         <option value="" selected>—</option>
                     </select>
                 </label>
             </div>
             <div class="table-column">
                 <div class="range-inputs">
-                    <input type="text" class="input" placeholder="from" name="totalFrom" data-name="totalFrom" aria-label="Total from">
-                    <input type="text" class="input" placeholder="to" name="totalTo" data-name="totalTo" aria-label="Total to">
+                    <input type="text" class="input" placeholder="от" name="totalFrom" data-name="totalFrom" aria-label="Сумма от">
+                    <input type="text" class="input" placeholder="до" name="totalTo" data-name="totalTo" aria-label="Сумма до">
                 </div>
             </div>
         </div>
@@ -65,28 +65,27 @@
         <!-- Пагинация -->
         <div class="pagination-container">
             <div class="pagination-controls">
-                <button type="button" name="first" class="pagination-button" data-name="firstPage" aria-label="First page">
+                <button type="button" name="first" class="pagination-button" data-name="firstPage" aria-label="Первая страница">
                     <i class="icon chevrons-left" aria-hidden="true"></i>
                 </button>
-                <button type="button" name="prev" class="pagination-button" data-name="previousPage" aria-label="Previous page">
+                <button type="button" name="prev" class="pagination-button" data-name="previousPage" aria-label="Предыдущая страница">
                     <i class="icon left" aria-hidden="true"></i>
                 </button>
-                <div class="pagination-pages" data-name="pages" role="group" aria-label="Page navigation"></div>
-                <button type="button" name="next" class="pagination-button" data-name="nextPage" aria-label="Next page">
+                <div class="pagination-pages" data-name="pages" role="group" aria-label="Номера страниц"></div>
+                <button type="button" name="next" class="pagination-button" data-name="nextPage" aria-label="Следующая страница">
                     <i class="icon right" aria-hidden="true"></i>
                 </button>
-                <button type="button" name="last" class="pagination-button" data-name="lastPage" aria-label="Last page">
+                <button type="button" name="last" class="pagination-button" data-name="lastPage" aria-label="Последняя страница">
                     <i class="icon chevrons-right" aria-hidden="true"></i>
                 </button>
             </div>
             <div class="pagination-settings">
                 <div class="pagination-status">
-                    Showing <span data-name="fromRow">0</span>
-                    to <span data-name="toRow">0</span>
-                    of <span data-name="totalRows">0</span> entries
+                    Строки <span data-name="fromRow">0</span>–<span data-name="toRow">0</span>
+                    из <span data-name="totalRows">0</span>
                 </div>
                 <label class="dropdown-select rows-per-page">
-                    <select name="rowsPerPage" data-name="rowsPerPage" aria-label="Rows per page">
+                    <select name="rowsPerPage" data-name="rowsPerPage" aria-label="Строк на странице">
                         <option value="10">10</option>
                         <option value="25">25</option>
                         <option value="50">50</option>
@@ -110,7 +109,7 @@
 
 <!-- Шаблон кнопки с номером страницы -->
 <template id="page">
-    <button type="button" name="page" class="pagination-button" aria-label="Go to page"></button>
+    <button type="button" name="page" class="pagination-button" aria-label="Перейти на страницу"></button>
 </template>
 
 <script type="module" src="/src/main.js"></script>

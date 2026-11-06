@@ -32,7 +32,7 @@ export function renderPages(container, pages, current) {
   container.replaceChildren(...buttons);
 }
 
-// Готовая функция. Заполняет строку «Showing 11 to 20 of 230 entries».
+// Готовая функция. Заполняет строку «Строки 11–20 из 230».
 // Принимает: status — элементы { fromRow, toRow, totalRows }; page — номер страницы;
 // perPage — строк на странице; total — число строк после поиска и фильтров.
 // Ничего не возвращает.
