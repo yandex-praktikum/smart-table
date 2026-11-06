@@ -1,7 +1,7 @@
 // Создаёт строку таблицы из шаблона #row и заполняет её ячейки.
 // Принимает: item — объект строки { id, date, customer, seller, total }.
 // Возвращает: элемент строки.
-// Пример: createRow({ date: '2023-12-04', customer: 'Andrey Alekseev', … }) → <div class="table-row">…</div>
+// Пример: createRow({ date: '2023-12-04', customer: 'Андрей Алексеев', … }) → <div class="table-row">…</div>
 export function createRow(item) {
 }
 

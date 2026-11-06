@@ -2,782 +2,782 @@ export const data = {
     "customers": [
         {
             "id": "customer_1",
-            "first_name": "Nikolai",
-            "last_name": "Fedorov",
+            "first_name": "Николай",
+            "last_name": "Фёдоров",
             "phone": "+76686102969",
-            "workplace": "UrbanLab",
-            "position": "Analyst"
+            "workplace": "ГорЛаб",
+            "position": "Аналитик"
         },
         {
             "id": "customer_2",
-            "first_name": "Denis",
-            "last_name": "Nikolaev",
+            "first_name": "Денис",
+            "last_name": "Николаев",
             "phone": "+73042474819",
-            "workplace": "SteelWorks",
-            "position": "Engineer"
+            "workplace": "СтальЗавод",
+            "position": "Инженер"
         },
         {
             "id": "customer_3",
-            "first_name": "Andrey",
-            "last_name": "Sidorov",
+            "first_name": "Андрей",
+            "last_name": "Сидоров",
             "phone": "+77501904904",
-            "workplace": "BrickHouse",
-            "position": "Manager"
+            "workplace": "Кирпичный дом",
+            "position": "Менеджер"
         },
         {
             "id": "customer_4",
-            "first_name": "Vladimir",
-            "last_name": "Nikolaev",
+            "first_name": "Владимир",
+            "last_name": "Николаев",
             "phone": "+74837484826",
-            "workplace": "SteelWorks",
-            "position": "Technician"
+            "workplace": "СтальЗавод",
+            "position": "Техник"
         },
         {
             "id": "customer_5",
-            "first_name": "Alexey",
-            "last_name": "Alekseev",
+            "first_name": "Алексей",
+            "last_name": "Алексеев",
             "phone": "+75339601775",
-            "workplace": "BuildCorp",
-            "position": "Manager"
+            "workplace": "СтройКорп",
+            "position": "Менеджер"
         },
         {
             "id": "customer_6",
-            "first_name": "Sergey",
-            "last_name": "Mikhailov",
+            "first_name": "Сергей",
+            "last_name": "Михайлов",
             "phone": "+79212039005",
-            "workplace": "BuildCorp",
-            "position": "Technician"
+            "workplace": "СтройКорп",
+            "position": "Техник"
         },
         {
             "id": "customer_7",
-            "first_name": "Andrey",
-            "last_name": "Petrov",
+            "first_name": "Андрей",
+            "last_name": "Петров",
             "phone": "+75136245198",
-            "workplace": "UrbanLab",
-            "position": "Analyst"
+            "workplace": "ГорЛаб",
+            "position": "Аналитик"
         },
         {
             "id": "customer_8",
-            "first_name": "Petr",
-            "last_name": "Smirnov",
+            "first_name": "Пётр",
+            "last_name": "Смирнов",
             "phone": "+79128093671",
-            "workplace": "SteelWorks",
-            "position": "Technician"
+            "workplace": "СтальЗавод",
+            "position": "Техник"
         },
         {
             "id": "customer_9",
-            "first_name": "Denis",
-            "last_name": "Mikhailov",
+            "first_name": "Денис",
+            "last_name": "Михайлов",
             "phone": "+74140263808",
-            "workplace": "BrickHouse",
-            "position": "Manager"
+            "workplace": "Кирпичный дом",
+            "position": "Менеджер"
         },
         {
             "id": "customer_10",
-            "first_name": "Alexey",
-            "last_name": "Volkov",
+            "first_name": "Алексей",
+            "last_name": "Волков",
             "phone": "+77111592080",
-            "workplace": "BuildCorp",
-            "position": "Manager"
+            "workplace": "СтройКорп",
+            "position": "Менеджер"
         }
     ],
     "products": [
         {
-            "name": "Cement #100",
-            "category": "Materials",
+            "name": "Цемент #100",
+            "category": "Материалы",
             "sku": "SKU_001",
             "purchase_price": 578.57,
             "sale_price": 1030.09
         },
         {
-            "name": "Cement #101",
-            "category": "Fasteners",
+            "name": "Цемент #101",
+            "category": "Крепёж",
             "sku": "SKU_002",
             "purchase_price": 604.09,
             "sale_price": 306.43
         },
         {
-            "name": "Saw #102",
-            "category": "Paints",
+            "name": "Пила #102",
+            "category": "Краски",
             "sku": "SKU_003",
             "purchase_price": 317.71,
             "sale_price": 759.68
         },
         {
-            "name": "Nails #103",
-            "category": "Paints",
+            "name": "Гвозди #103",
+            "category": "Краски",
             "sku": "SKU_004",
             "purchase_price": 722.71,
             "sale_price": 847.1
         },
         {
-            "name": "Sand #104",
-            "category": "Paints",
+            "name": "Песок #104",
+            "category": "Краски",
             "sku": "SKU_005",
             "purchase_price": 474.16,
             "sale_price": 712.79
         },
         {
-            "name": "Drill #105",
-            "category": "Materials",
+            "name": "Дрель #105",
+            "category": "Материалы",
             "sku": "SKU_006",
             "purchase_price": 251.88,
             "sale_price": 647.87
         },
         {
-            "name": "Cement #106",
-            "category": "Fasteners",
+            "name": "Цемент #106",
+            "category": "Крепёж",
             "sku": "SKU_007",
             "purchase_price": 175.25,
             "sale_price": 873.69
         },
         {
-            "name": "Cement #107",
-            "category": "Materials",
+            "name": "Цемент #107",
+            "category": "Материалы",
             "sku": "SKU_008",
             "purchase_price": 809.23,
             "sale_price": 780.24
         },
         {
-            "name": "Paint #108",
-            "category": "Fasteners",
+            "name": "Краска #108",
+            "category": "Крепёж",
             "sku": "SKU_009",
             "purchase_price": 244.86,
             "sale_price": 207.08
         },
         {
-            "name": "Bricks #109",
-            "category": "Paints",
+            "name": "Кирпич #109",
+            "category": "Краски",
             "sku": "SKU_010",
             "purchase_price": 234.81,
             "sale_price": 895.84
         },
         {
-            "name": "Bricks #110",
-            "category": "Fasteners",
+            "name": "Кирпич #110",
+            "category": "Крепёж",
             "sku": "SKU_011",
             "purchase_price": 172.99,
             "sale_price": 325.06
         },
         {
-            "name": "Gravel #111",
-            "category": "Paints",
+            "name": "Щебень #111",
+            "category": "Краски",
             "sku": "SKU_012",
             "purchase_price": 789.11,
             "sale_price": 938.05
         },
         {
-            "name": "Nails #112",
-            "category": "Tools",
+            "name": "Гвозди #112",
+            "category": "Инструменты",
             "sku": "SKU_013",
             "purchase_price": 936.02,
             "sale_price": 796.87
         },
         {
-            "name": "Saw #113",
-            "category": "Paints",
+            "name": "Пила #113",
+            "category": "Краски",
             "sku": "SKU_014",
             "purchase_price": 139.85,
             "sale_price": 460.26
         },
         {
-            "name": "Gravel #114",
-            "category": "Paints",
+            "name": "Щебень #114",
+            "category": "Краски",
             "sku": "SKU_015",
             "purchase_price": 665.73,
             "sale_price": 676.45
         },
         {
-            "name": "Paint #115",
-            "category": "Tools",
+            "name": "Краска #115",
+            "category": "Инструменты",
             "sku": "SKU_016",
             "purchase_price": 742.51,
             "sale_price": 303.43
         },
         {
-            "name": "Gravel #116",
-            "category": "Tools",
+            "name": "Щебень #116",
+            "category": "Инструменты",
             "sku": "SKU_017",
             "purchase_price": 976.41,
             "sale_price": 796.22
         },
         {
-            "name": "Paint #117",
-            "category": "Materials",
+            "name": "Краска #117",
+            "category": "Материалы",
             "sku": "SKU_018",
             "purchase_price": 133.81,
             "sale_price": 971.5
         },
         {
-            "name": "Screwdriver #118",
-            "category": "Tools",
+            "name": "Отвёртка #118",
+            "category": "Инструменты",
             "sku": "SKU_019",
             "purchase_price": 133.87,
             "sale_price": 999.26
         },
         {
-            "name": "Paint #119",
-            "category": "Fasteners",
+            "name": "Краска #119",
+            "category": "Крепёж",
             "sku": "SKU_020",
             "purchase_price": 661.54,
             "sale_price": 1082.69
         },
         {
-            "name": "Cement #120",
-            "category": "Paints",
+            "name": "Цемент #120",
+            "category": "Краски",
             "sku": "SKU_021",
             "purchase_price": 654.41,
             "sale_price": 789.68
         },
         {
-            "name": "Hammer #121",
-            "category": "Fasteners",
+            "name": "Молоток #121",
+            "category": "Крепёж",
             "sku": "SKU_022",
             "purchase_price": 613.36,
             "sale_price": 321.35
         },
         {
-            "name": "Screwdriver #122",
-            "category": "Fasteners",
+            "name": "Отвёртка #122",
+            "category": "Крепёж",
             "sku": "SKU_023",
             "purchase_price": 849.05,
             "sale_price": 532.51
         },
         {
-            "name": "Paint #123",
-            "category": "Fasteners",
+            "name": "Краска #123",
+            "category": "Крепёж",
             "sku": "SKU_024",
             "purchase_price": 909.72,
             "sale_price": 840.03
         },
         {
-            "name": "Gravel #124",
-            "category": "Tools",
+            "name": "Щебень #124",
+            "category": "Инструменты",
             "sku": "SKU_025",
             "purchase_price": 836.64,
             "sale_price": 542.82
         },
         {
-            "name": "Paint #125",
-            "category": "Paints",
+            "name": "Краска #125",
+            "category": "Краски",
             "sku": "SKU_026",
             "purchase_price": 272.42,
             "sale_price": 917.26
         },
         {
-            "name": "Saw #126",
-            "category": "Materials",
+            "name": "Пила #126",
+            "category": "Материалы",
             "sku": "SKU_027",
             "purchase_price": 503.41,
             "sale_price": 222.31
         },
         {
-            "name": "Cement #127",
-            "category": "Materials",
+            "name": "Цемент #127",
+            "category": "Материалы",
             "sku": "SKU_028",
             "purchase_price": 841.94,
             "sale_price": 1049.08
         },
         {
-            "name": "Cement #128",
-            "category": "Materials",
+            "name": "Цемент #128",
+            "category": "Материалы",
             "sku": "SKU_029",
             "purchase_price": 608.6,
             "sale_price": 952.82
         },
         {
-            "name": "Screwdriver #129",
-            "category": "Materials",
+            "name": "Отвёртка #129",
+            "category": "Материалы",
             "sku": "SKU_030",
             "purchase_price": 100.81,
             "sale_price": 971.74
         },
         {
-            "name": "Gravel #130",
-            "category": "Fasteners",
+            "name": "Щебень #130",
+            "category": "Крепёж",
             "sku": "SKU_031",
             "purchase_price": 939.44,
             "sale_price": 828.06
         },
         {
-            "name": "Paint #131",
-            "category": "Paints",
+            "name": "Краска #131",
+            "category": "Краски",
             "sku": "SKU_032",
             "purchase_price": 577.33,
             "sale_price": 694.43
         },
         {
-            "name": "Screwdriver #132",
-            "category": "Paints",
+            "name": "Отвёртка #132",
+            "category": "Краски",
             "sku": "SKU_033",
             "purchase_price": 873.31,
             "sale_price": 197.52
         },
         {
-            "name": "Sand #133",
-            "category": "Materials",
+            "name": "Песок #133",
+            "category": "Материалы",
             "sku": "SKU_034",
             "purchase_price": 128.51,
             "sale_price": 389.53
         },
         {
-            "name": "Hammer #134",
-            "category": "Tools",
+            "name": "Молоток #134",
+            "category": "Инструменты",
             "sku": "SKU_035",
             "purchase_price": 226.01,
             "sale_price": 729.19
         },
         {
-            "name": "Sand #135",
-            "category": "Paints",
+            "name": "Песок #135",
+            "category": "Краски",
             "sku": "SKU_036",
             "purchase_price": 903.48,
             "sale_price": 486.93
         },
         {
-            "name": "Hammer #136",
-            "category": "Paints",
+            "name": "Молоток #136",
+            "category": "Краски",
             "sku": "SKU_037",
             "purchase_price": 904.1,
             "sale_price": 295.32
         },
         {
-            "name": "Paint #137",
-            "category": "Tools",
+            "name": "Краска #137",
+            "category": "Инструменты",
             "sku": "SKU_038",
             "purchase_price": 762.13,
             "sale_price": 582.4
         },
         {
-            "name": "Sand #138",
-            "category": "Tools",
+            "name": "Песок #138",
+            "category": "Инструменты",
             "sku": "SKU_039",
             "purchase_price": 387.93,
             "sale_price": 266.05
         },
         {
-            "name": "Saw #139",
-            "category": "Fasteners",
+            "name": "Пила #139",
+            "category": "Крепёж",
             "sku": "SKU_040",
             "purchase_price": 892.89,
             "sale_price": 405.51
         },
         {
-            "name": "Sand #140",
-            "category": "Materials",
+            "name": "Песок #140",
+            "category": "Материалы",
             "sku": "SKU_041",
             "purchase_price": 281.66,
             "sale_price": 806.23
         },
         {
-            "name": "Sand #141",
-            "category": "Materials",
+            "name": "Песок #141",
+            "category": "Материалы",
             "sku": "SKU_042",
             "purchase_price": 514.62,
             "sale_price": 534.71
         },
         {
-            "name": "Bricks #142",
-            "category": "Fasteners",
+            "name": "Кирпич #142",
+            "category": "Крепёж",
             "sku": "SKU_043",
             "purchase_price": 571.53,
             "sale_price": 768.38
         },
         {
-            "name": "Screwdriver #143",
-            "category": "Paints",
+            "name": "Отвёртка #143",
+            "category": "Краски",
             "sku": "SKU_044",
             "purchase_price": 482.08,
             "sale_price": 1082.21
         },
         {
-            "name": "Cement #144",
-            "category": "Materials",
+            "name": "Цемент #144",
+            "category": "Материалы",
             "sku": "SKU_045",
             "purchase_price": 157.75,
             "sale_price": 945.57
         },
         {
-            "name": "Saw #145",
-            "category": "Materials",
+            "name": "Пила #145",
+            "category": "Материалы",
             "sku": "SKU_046",
             "purchase_price": 997.12,
             "sale_price": 247.65
         },
         {
-            "name": "Screwdriver #146",
-            "category": "Paints",
+            "name": "Отвёртка #146",
+            "category": "Краски",
             "sku": "SKU_047",
             "purchase_price": 767.15,
             "sale_price": 864.9
         },
         {
-            "name": "Paint #147",
-            "category": "Fasteners",
+            "name": "Краска #147",
+            "category": "Крепёж",
             "sku": "SKU_048",
             "purchase_price": 449.78,
             "sale_price": 1104.49
         },
         {
-            "name": "Saw #148",
-            "category": "Tools",
+            "name": "Пила #148",
+            "category": "Инструменты",
             "sku": "SKU_049",
             "purchase_price": 615.07,
             "sale_price": 403.29
         },
         {
-            "name": "Gravel #149",
-            "category": "Materials",
+            "name": "Щебень #149",
+            "category": "Материалы",
             "sku": "SKU_050",
             "purchase_price": 642.84,
             "sale_price": 838.91
         },
         {
-            "name": "Gravel #150",
-            "category": "Materials",
+            "name": "Щебень #150",
+            "category": "Материалы",
             "sku": "SKU_051",
             "purchase_price": 817,
             "sale_price": 846.76
         },
         {
-            "name": "Screwdriver #151",
-            "category": "Tools",
+            "name": "Отвёртка #151",
+            "category": "Инструменты",
             "sku": "SKU_052",
             "purchase_price": 673.14,
             "sale_price": 235.11
         },
         {
-            "name": "Paint #152",
-            "category": "Tools",
+            "name": "Краска #152",
+            "category": "Инструменты",
             "sku": "SKU_053",
             "purchase_price": 150.56,
             "sale_price": 334.1
         },
         {
-            "name": "Bricks #153",
-            "category": "Materials",
+            "name": "Кирпич #153",
+            "category": "Материалы",
             "sku": "SKU_054",
             "purchase_price": 159.56,
             "sale_price": 152.26
         },
         {
-            "name": "Drill #154",
-            "category": "Paints",
+            "name": "Дрель #154",
+            "category": "Краски",
             "sku": "SKU_055",
             "purchase_price": 933.04,
             "sale_price": 753.98
         },
         {
-            "name": "Cement #155",
-            "category": "Materials",
+            "name": "Цемент #155",
+            "category": "Материалы",
             "sku": "SKU_056",
             "purchase_price": 837.43,
             "sale_price": 661.78
         },
         {
-            "name": "Paint #156",
-            "category": "Tools",
+            "name": "Краска #156",
+            "category": "Инструменты",
             "sku": "SKU_057",
             "purchase_price": 189.32,
             "sale_price": 527.16
         },
         {
-            "name": "Nails #157",
-            "category": "Materials",
+            "name": "Гвозди #157",
+            "category": "Материалы",
             "sku": "SKU_058",
             "purchase_price": 495.63,
             "sale_price": 375.2
         },
         {
-            "name": "Paint #158",
-            "category": "Fasteners",
+            "name": "Краска #158",
+            "category": "Крепёж",
             "sku": "SKU_059",
             "purchase_price": 851.23,
             "sale_price": 1009.52
         },
         {
-            "name": "Hammer #159",
-            "category": "Fasteners",
+            "name": "Молоток #159",
+            "category": "Крепёж",
             "sku": "SKU_060",
             "purchase_price": 183.92,
             "sale_price": 460.14
         },
         {
-            "name": "Paint #160",
-            "category": "Materials",
+            "name": "Краска #160",
+            "category": "Материалы",
             "sku": "SKU_061",
             "purchase_price": 931.81,
             "sale_price": 568.25
         },
         {
-            "name": "Sand #161",
-            "category": "Fasteners",
+            "name": "Песок #161",
+            "category": "Крепёж",
             "sku": "SKU_062",
             "purchase_price": 560.89,
             "sale_price": 1059.32
         },
         {
-            "name": "Hammer #162",
-            "category": "Paints",
+            "name": "Молоток #162",
+            "category": "Краски",
             "sku": "SKU_063",
             "purchase_price": 687.84,
             "sale_price": 628.96
         },
         {
-            "name": "Drill #163",
-            "category": "Tools",
+            "name": "Дрель #163",
+            "category": "Инструменты",
             "sku": "SKU_064",
             "purchase_price": 552.5,
             "sale_price": 435.19
         },
         {
-            "name": "Gravel #164",
-            "category": "Paints",
+            "name": "Щебень #164",
+            "category": "Краски",
             "sku": "SKU_065",
             "purchase_price": 412.13,
             "sale_price": 755.93
         },
         {
-            "name": "Hammer #165",
-            "category": "Tools",
+            "name": "Молоток #165",
+            "category": "Инструменты",
             "sku": "SKU_066",
             "purchase_price": 179.1,
             "sale_price": 422.76
         },
         {
-            "name": "Screwdriver #166",
-            "category": "Fasteners",
+            "name": "Отвёртка #166",
+            "category": "Крепёж",
             "sku": "SKU_067",
             "purchase_price": 955,
             "sale_price": 179.99
         },
         {
-            "name": "Bricks #167",
-            "category": "Fasteners",
+            "name": "Кирпич #167",
+            "category": "Крепёж",
             "sku": "SKU_068",
             "purchase_price": 732.36,
             "sale_price": 914.23
         },
         {
-            "name": "Cement #168",
-            "category": "Materials",
+            "name": "Цемент #168",
+            "category": "Материалы",
             "sku": "SKU_069",
             "purchase_price": 551.35,
             "sale_price": 465.53
         },
         {
-            "name": "Cement #169",
-            "category": "Materials",
+            "name": "Цемент #169",
+            "category": "Материалы",
             "sku": "SKU_070",
             "purchase_price": 930.38,
             "sale_price": 329.25
         },
         {
-            "name": "Drill #170",
-            "category": "Fasteners",
+            "name": "Дрель #170",
+            "category": "Крепёж",
             "sku": "SKU_071",
             "purchase_price": 985.63,
             "sale_price": 579.55
         },
         {
-            "name": "Saw #171",
-            "category": "Fasteners",
+            "name": "Пила #171",
+            "category": "Крепёж",
             "sku": "SKU_072",
             "purchase_price": 759.26,
             "sale_price": 526.99
         },
         {
-            "name": "Bricks #172",
-            "category": "Tools",
+            "name": "Кирпич #172",
+            "category": "Инструменты",
             "sku": "SKU_073",
             "purchase_price": 305.05,
             "sale_price": 831.2
         },
         {
-            "name": "Saw #173",
-            "category": "Materials",
+            "name": "Пила #173",
+            "category": "Материалы",
             "sku": "SKU_074",
             "purchase_price": 794.45,
             "sale_price": 821.61
         },
         {
-            "name": "Cement #174",
-            "category": "Fasteners",
+            "name": "Цемент #174",
+            "category": "Крепёж",
             "sku": "SKU_075",
             "purchase_price": 974.95,
             "sale_price": 904.17
         },
         {
-            "name": "Sand #175",
-            "category": "Tools",
+            "name": "Песок #175",
+            "category": "Инструменты",
             "sku": "SKU_076",
             "purchase_price": 432.4,
             "sale_price": 647.75
         },
         {
-            "name": "Drill #176",
-            "category": "Paints",
+            "name": "Дрель #176",
+            "category": "Краски",
             "sku": "SKU_077",
             "purchase_price": 839.2,
             "sale_price": 937.7
         },
         {
-            "name": "Gravel #177",
-            "category": "Fasteners",
+            "name": "Щебень #177",
+            "category": "Крепёж",
             "sku": "SKU_078",
             "purchase_price": 546.74,
             "sale_price": 381.61
         },
         {
-            "name": "Gravel #178",
-            "category": "Paints",
+            "name": "Щебень #178",
+            "category": "Краски",
             "sku": "SKU_079",
             "purchase_price": 418.19,
             "sale_price": 255.41
         },
         {
-            "name": "Nails #179",
-            "category": "Tools",
+            "name": "Гвозди #179",
+            "category": "Инструменты",
             "sku": "SKU_080",
             "purchase_price": 555.33,
             "sale_price": 234.8
         },
         {
-            "name": "Drill #180",
-            "category": "Tools",
+            "name": "Дрель #180",
+            "category": "Инструменты",
             "sku": "SKU_081",
             "purchase_price": 872.18,
             "sale_price": 754.66
         },
         {
-            "name": "Bricks #181",
-            "category": "Paints",
+            "name": "Кирпич #181",
+            "category": "Краски",
             "sku": "SKU_082",
             "purchase_price": 456.63,
             "sale_price": 459.95
         },
         {
-            "name": "Gravel #182",
-            "category": "Materials",
+            "name": "Щебень #182",
+            "category": "Материалы",
             "sku": "SKU_083",
             "purchase_price": 470.1,
             "sale_price": 914.67
         },
         {
-            "name": "Nails #183",
-            "category": "Tools",
+            "name": "Гвозди #183",
+            "category": "Инструменты",
             "sku": "SKU_084",
             "purchase_price": 159.91,
             "sale_price": 786.29
         },
         {
-            "name": "Sand #184",
-            "category": "Fasteners",
+            "name": "Песок #184",
+            "category": "Крепёж",
             "sku": "SKU_085",
             "purchase_price": 324.08,
             "sale_price": 749.09
         },
         {
-            "name": "Drill #185",
-            "category": "Paints",
+            "name": "Дрель #185",
+            "category": "Краски",
             "sku": "SKU_086",
             "purchase_price": 428.96,
             "sale_price": 515.14
         },
         {
-            "name": "Drill #186",
-            "category": "Paints",
+            "name": "Дрель #186",
+            "category": "Краски",
             "sku": "SKU_087",
             "purchase_price": 743.31,
             "sale_price": 571.96
         },
         {
-            "name": "Paint #187",
-            "category": "Materials",
+            "name": "Краска #187",
+            "category": "Материалы",
             "sku": "SKU_088",
             "purchase_price": 479.56,
             "sale_price": 270.71
         },
         {
-            "name": "Nails #188",
-            "category": "Materials",
+            "name": "Гвозди #188",
+            "category": "Материалы",
             "sku": "SKU_089",
             "purchase_price": 252.92,
             "sale_price": 1017.79
         },
         {
-            "name": "Screwdriver #189",
-            "category": "Tools",
+            "name": "Отвёртка #189",
+            "category": "Инструменты",
             "sku": "SKU_090",
             "purchase_price": 911.2,
             "sale_price": 1085.06
         },
         {
-            "name": "Saw #190",
-            "category": "Materials",
+            "name": "Пила #190",
+            "category": "Материалы",
             "sku": "SKU_091",
             "purchase_price": 532.32,
             "sale_price": 977.14
         },
         {
-            "name": "Saw #191",
-            "category": "Materials",
+            "name": "Пила #191",
+            "category": "Материалы",
             "sku": "SKU_092",
             "purchase_price": 548.86,
             "sale_price": 708.46
         },
         {
-            "name": "Nails #192",
-            "category": "Fasteners",
+            "name": "Гвозди #192",
+            "category": "Крепёж",
             "sku": "SKU_093",
             "purchase_price": 134.28,
             "sale_price": 248.86
         },
         {
-            "name": "Hammer #193",
-            "category": "Tools",
+            "name": "Молоток #193",
+            "category": "Инструменты",
             "sku": "SKU_094",
             "purchase_price": 612.64,
             "sale_price": 585.5
         },
         {
-            "name": "Sand #194",
-            "category": "Tools",
+            "name": "Песок #194",
+            "category": "Инструменты",
             "sku": "SKU_095",
             "purchase_price": 848.93,
             "sale_price": 689.22
         },
         {
-            "name": "Saw #195",
-            "category": "Paints",
+            "name": "Пила #195",
+            "category": "Краски",
             "sku": "SKU_096",
             "purchase_price": 143.32,
             "sale_price": 252.24
         },
         {
-            "name": "Saw #196",
-            "category": "Tools",
+            "name": "Пила #196",
+            "category": "Инструменты",
             "sku": "SKU_097",
             "purchase_price": 334.45,
             "sale_price": 622.85
         },
         {
-            "name": "Nails #197",
-            "category": "Fasteners",
+            "name": "Гвозди #197",
+            "category": "Крепёж",
             "sku": "SKU_098",
             "purchase_price": 664.02,
             "sale_price": 798.74
         },
         {
-            "name": "Cement #198",
-            "category": "Fasteners",
+            "name": "Цемент #198",
+            "category": "Крепёж",
             "sku": "SKU_099",
             "purchase_price": 674.22,
             "sale_price": 528.94
         },
         {
-            "name": "Nails #199",
-            "category": "Materials",
+            "name": "Гвозди #199",
+            "category": "Материалы",
             "sku": "SKU_100",
             "purchase_price": 700.65,
             "sale_price": 949.54
@@ -786,38 +786,38 @@ export const data = {
     "sellers": [
         {
             "id": "seller_1",
-            "first_name": "Petr",
-            "last_name": "Petrov",
+            "first_name": "Пётр",
+            "last_name": "Петров",
             "start_date": "2023-10-16",
-            "position": "Senior Seller"
+            "position": "Старший продавец"
         },
         {
             "id": "seller_2",
-            "first_name": "Nikolai",
-            "last_name": "Alekseev",
+            "first_name": "Николай",
+            "last_name": "Алексеев",
             "start_date": "2024-10-28",
-            "position": "Senior Seller"
+            "position": "Старший продавец"
         },
         {
             "id": "seller_3",
-            "first_name": "Mikhail",
-            "last_name": "Alekseev",
+            "first_name": "Михаил",
+            "last_name": "Алексеев",
             "start_date": "2024-11-02",
-            "position": "Seller"
+            "position": "Продавец"
         },
         {
             "id": "seller_4",
-            "first_name": "Mikhail",
-            "last_name": "Ivanov",
+            "first_name": "Михаил",
+            "last_name": "Иванов",
             "start_date": "2023-07-13",
-            "position": "Seller"
+            "position": "Продавец"
         },
         {
             "id": "seller_5",
-            "first_name": "Mikhail",
-            "last_name": "Ivanov",
+            "first_name": "Михаил",
+            "last_name": "Иванов",
             "start_date": "2023-10-29",
-            "position": "Seller"
+            "position": "Продавец"
         }
     ],
     "purchase_records": [
